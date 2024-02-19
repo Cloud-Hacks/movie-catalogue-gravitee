@@ -32,6 +32,11 @@ curl -X POST http://localhost:8081/movie -H 'Content-Type: application/json' -d 
 curl localhost:8081/movies/year/2021
 ```
 
+```
+curl --header "X-Gravitee-Api-Key: YOUR_API_KEY" \
+https://trial.apim.trial-devex.gravitee.xyz/movies/year/10
+```
+
 ## Retrieve a movie by name
 
 ```
