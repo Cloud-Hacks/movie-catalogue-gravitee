@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: movi-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mymovips-app
+  template:
+    metadata:
+      labels:
+        app: mymovips-app
+    spec:
+      containers:
+        - name: mymovips-app
+          image: afzal442/movie-catalogue:v3
+          ports:
+            - containerPort: 8081
