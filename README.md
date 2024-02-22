@@ -1,3 +1,5 @@
+![dwhack](https://github.com/Cloud-Hacks/movie-catalogue-gravitee/assets/11625672/6e38bccd-2cf1-4d0b-bf66-e6fe536ca601)
+
 Movie Catalogue API is an application programming interface (API) leveraged by Gravitee APIM that provides functionality to manage and retrieve information about movies in a movie catalog. It serves as a backend service that allows developers to interact with the movie database, perform CRUD (Create, Read, Update, Delete) operations, and search for movies based on various criteria.
 
 
