@@ -21,9 +21,9 @@ OR
 
 ```
 curl -X POST http://localhost:8081/movie -H 'Content-Type: application/json' -d '{
-    "title": "Avenger War Cry",
-    "year": 2021,
-    "cast": ["Robert Downey, Jr., Chris Evans, Chris Hemsworth, Mark Ruffalo"],
+    "title": "Avatar III",
+    "year": 2024,
+    "cast": ["Sam Worthington"],
     "genres": ["Action"]
 }'
 ```
